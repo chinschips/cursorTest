@@ -1,0 +1,5 @@
+Metric,Result
+Actual hours by employee (all time),=QUERY('Daily Log'!A:O,"select Col2,sum(Col15) where Col1 is not null and Col15 is not null group by Col2 label Col2 'Employee', sum(Col15) 'Actual Hours'",1)
+Done tasks by employee (all time),=QUERY('Daily Log'!A:I,"select Col2,count(Col6) where Col1 is not null and Col9 = 'Done' group by Col2 label Col2 'Employee', count(Col6) 'Done Tasks'",1)
+In-progress tasks by employee (all time),=QUERY('Daily Log'!A:I,"select Col2,count(Col6) where Col1 is not null and Col9 = 'In Progress' group by Col2 label Col2 'Employee', count(Col6) 'In Progress Tasks'",1)
+Blocked tasks by employee (all time),=QUERY('Daily Log'!A:I,"select Col2,count(Col6) where Col1 is not null and Col9 = 'Blocked' group by Col2 label Col2 'Employee', count(Col6) 'Blocked Tasks'",1)

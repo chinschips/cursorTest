@@ -1,0 +1,2 @@
+Date,Employee,Role,Team,Project,Task / Deliverable,Category,Priority,Status,Planned Start,Planned End,Actual Start,Actual End,Estimated Hours,Actual Hours,Blocked? (Y/N),Blocker Details,Dependencies,Link(s),Notes,Manager Review,Reviewed By,Review Date
+2026-01-12,Jane Doe,Engineer,Platform,Project Alpha,Ship API endpoint for user profile,Delivery,High,In Progress,2026-01-12,2026-01-12,2026-01-12,,2,,"N",,,https://link.to/ticket,Daily status update goes here,,, 

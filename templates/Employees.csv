@@ -1,0 +1,3 @@
+Employee,Email,Role,Team,Manager,Active
+Jane Doe,jane.doe@company.com,Engineer,Platform,Manager Name,TRUE
+John Smith,john.smith@company.com,Customer Support,Support,Manager Name,TRUE

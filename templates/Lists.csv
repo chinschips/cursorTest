@@ -1,0 +1,17 @@
+List Name,Value
+Status,Planned
+Status,In Progress
+Status,Blocked
+Status,Done
+Priority,Low
+Priority,Medium
+Priority,High
+Priority,Critical
+Category,Delivery
+Category,Bugfix
+Category,Support
+Category,Operations
+Category,Meetings
+Category,Admin
+Blocked?,Y
+Blocked?,N
